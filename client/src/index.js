@@ -10,14 +10,14 @@ import Rutas from './Rutas';
 
 const RootComponent = () => {
   return (
-    <ModoProvider>
+    
       <React.StrictMode>
         <Router>
           <Rutas />
         </Router>
       </React.StrictMode>
-    </ModoProvider>
+    
   );
-};
+}; 
 
 ReactDOM.createRoot(document.getElementById('root')).render(<RootComponent />);
