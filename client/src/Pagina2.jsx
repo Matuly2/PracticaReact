@@ -1,6 +1,8 @@
 import React from 'react';
 import Nav from './componentes/Nav.jsx';
 import Perfil from './componentes/Perfil.jsx'; 
+import {TwitterFollowCard} from './componentes/TwitterFollowCard.jsx';
+import Tendencia from './componentes/Tendencias.jsx';
 import imagenGrande from './componentes/img/hasbullaAvatar.jpg';
 import imagenRedonda from './componentes/img/hasbullaEncabezado.jpg';
 import './App.css'; 
