@@ -7,7 +7,7 @@ import imagenGrande from './componentes/img/hasbullaAvatar.jpg';
 import imagenRedonda from './componentes/img/hasbullaEncabezado.jpg';
 import './App.css'; 
 
-
+const format = (userName) =>`@${userName}`;
 const Pagina2 = () => (
   
   <div className="App"> 
