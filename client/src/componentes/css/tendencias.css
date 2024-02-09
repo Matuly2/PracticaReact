@@ -1,0 +1,22 @@
+.tendencia {
+    font-size: 5px;
+    padding: 2px;
+  }
+  
+  .tendencia:hover {
+    background-color: #d0d0d0;
+    border-radius: 10px;
+  }
+  
+  .tendencia p {
+    font-size: 7px;
+  }
+  
+  .tendencia h3 {
+    font-size: 10px;
+    font-weight: bold;
+  }
+  
+  .numero, .posts {
+    font-weight: bold;
+  }

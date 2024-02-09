@@ -1,0 +1,25 @@
+.App {
+  display: flex;
+  flex-direction:row;
+  width: 100%; 
+  font-family: inherit;
+}
+
+.App Perfil {
+  flex: 1; 
+  
+}
+.App .twitterFollowCard {
+  background-color: #f0f0f0;
+  
+  display: flex; 
+  flex-direction: column; 
+  margin-left: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.App .twitterFollowCard p {
+  font-size: 1.5em; 
+  font-weight: bold; 
+}
