@@ -4,8 +4,8 @@ import Perfil from './componentes/Perfil.jsx';
 
 import './App.css'; 
 
-const format = (userName) =>`@${userName}`;
-const App = () => (
+
+const Pagina2 = () => (
   
   <div className="App"> 
     <Nav/>
@@ -24,4 +24,4 @@ const App = () => (
   </div>
 );
 
-export default App;
+export default Pagina2;
