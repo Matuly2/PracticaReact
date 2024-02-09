@@ -3,6 +3,8 @@ import Nav from './componentes/Nav.jsx';
 import Perfil from './componentes/Perfil.jsx'; 
 import {TwitterFollowCard} from './componentes/TwitterFollowCard.jsx';
 import Tendencia from './componentes/Tendencias.jsx';
+import imagenGrande from './componentes/img/perfil-largo.webp';
+import imagenRedonda from './componentes/img/perfil-corto.jpg';
 import './App.css'; 
 
 const format = (userName) =>`@${userName}`;
@@ -20,6 +22,8 @@ const App = () => (
       fechaUnion="01/01/2010" 
       siguiendo={10} 
       seguidores={1000000} 
+      imagenGrande={imagenGrande}
+      imagenRedonda={imagenRedonda}
     />
       <section className="twitterFollowCard">
       <p>A Quién Seguir</p>

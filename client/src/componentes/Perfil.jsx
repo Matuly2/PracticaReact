@@ -1,9 +1,11 @@
 import React from 'react';
+/*
 import imagenGrande from './img/perfil-largo.webp';
 import imagenRedonda from './img/perfil-corto.jpg';
+*/
 import './css/perfil.css';
 
-const Perfil = ({ nombre, nick, descripcion, ubicacion, enlace, fechaNacimiento, fechaUnion, siguiendo, seguidores }) => (
+const Perfil = ({ nombre, nick, descripcion, ubicacion, enlace, fechaNacimiento, fechaUnion, siguiendo, seguidores, imagenGrande,imagenRedonda }) => (
   <div className="contenedor-perfil">
     <img src={imagenGrande} alt="Imagen grande" className="imagen-grande" />
     <img src={imagenRedonda} alt="Imagen redonda" className="imagen-redonda" />
