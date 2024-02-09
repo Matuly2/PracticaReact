@@ -9,7 +9,7 @@ const Pagina2 = () => (
   
   <div className="App"> 
     <Nav/>
-    <Perfil 
+    <Perfil  
       nombre="Arnold Schwarzenegger" 
       nick="terminator" 
       descripcion="He Derrotado a Skynet" 

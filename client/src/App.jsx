@@ -12,7 +12,7 @@ const App = () => (
     <Nav/>
     <Perfil 
       nombre="Arnold Schwarzenegger" 
-      nick="terminator" 
+      nick="terminator"  
       descripcion="He Derrotado a Skynet" 
       ubicacion="Los Angeles, CA" 
       enlace="https://www.imdb.com/name/nm0000216/" 

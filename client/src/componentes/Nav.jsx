@@ -12,8 +12,8 @@ import imagen8 from './img/perfil.png';
 
 
 const links = [
-  { texto: 'Inicio', imagen: imagen1, url: '#' },
-  { texto: 'Explorar', imagen: imagen2, url: '#' },
+  { texto: 'Inicio', imagen: imagen1, url: '/' },
+  { texto: 'Explorar', imagen: imagen2, url: '/pagina2' },
   { texto: 'Notificaciones', imagen: imagen3, url: '#' },
   { texto: 'Mensajes', imagen: imagen4, url: '#' },
   { texto: 'Listas', imagen: imagen5, url: '#' },
