@@ -4,7 +4,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 
 
 import './index.css';
-import Rutas from './Rutas';
+import Rutas from './Rutas.jsx';
 
 
 

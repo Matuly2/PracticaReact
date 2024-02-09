@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import App from './App';
-import Pagina2 from './Pagina2'; 
+import App from './App.jsx';
+import Pagina2 from './Pagina2.jsx'; 
 
 const AppRoutes = () => {
 return (
